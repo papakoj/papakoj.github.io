@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intro"
+title:  "This is a longer and siller title"
 author: "Papa Kojo Ampim-Darko"
 ---
 
