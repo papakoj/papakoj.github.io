@@ -317,3 +317,88 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+@font-face { font-family: "Yikes"; src: url("../fonts/Lora-Regular.ttf"); }
+@font-face { font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face { font-family: "Crimson"; src: url("../fonts/Crimson-Roman.otf"); }
+@media (min-width: 960px) { #brief { font-size: 3em; }
+  #hello-text { font-size: 5em; margin: 0%; padding: 0%; line-height: 0.75em; }
+  html, body { height: 100%; }
+  .intro-text { margin: 2%; width: 56%; float: right; }
+  main#content.main-content { display: flex; flex-direction: column; padding: 0%; font-family: "Raleway"; }
+  p { font-size: 1em; text-align: justify; }
+  #personal-img { float: left; margin: 2%; height: 35%; width: 35%; border-radius: 50%; }
+  .site-footer-owner { position: absolute; left: 0; bottom: 0; max-width: 30%; font-size: 0.8em; margin-left: 1%; }
+  .site-footer-credits { color: #819198; margin: auto; max-width: 30%; font-size: 0.8em; }
+  .site-favicon-credit { margin: auto; max-width: 40%; font-size: 0.8em; }
+  .site-footer-social { position: absolute; bottom: 0; right: 0; margin-right: 1%; font-size: 0.5em; max-width: 30%; }
+  .site-footer-social i { padding: 10px; transform: translateX(10px) rotate(360deg); text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); color: #117d47; transition: all ease-in-out 150ms; }
+  .site-footer { padding-top: 0; margin-top: auto; padding-bottom: 0.5rem; border-top: solid 1px #eff0f1; background-color: #F0FAFF; text-align: center; width: 100%; position: fixed; bottom: 0; } }
+@media (max-width: 959px) { a { color: #117d47; font-size: 1em; }
+  body { font-family: Yikes; display: flex; flex-direction: column; }
+  #brief { font-size: 1.5em; }
+  .center-element { text-align: center; position: relative; }
+  #hello-text { font-size: 2.5em; margin-top: 5%; margin-bottom: 0; }
+  html, body { height: 100%; font-family: "Yikes"; }
+  main#content.main-content { flex: auto; }
+  .main-content h5 { font-size: 0.75em; }
+  p { font-size: 1em; }
+  #personal-img { height: 100%; width: 100%; padding: 0px; margin: 0px; border-radius: 50%; }
+  #personal-logo { width: 40%; }
+  #personal-logo a { padding: 5% 0%; }
+  .site-footer-credits { display: block; color: #819198; margin: auto; }
+  .site-footer-social { display: block; font-size: 10px; }
+  .site-footer-social i { padding: 10px; transform: translateX(10px) rotate(360deg); text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); color: rgba(0, 0, 0, 0.6); transition: all ease-in-out 150ms; }
+  .site-footer { padding-top: 0; position: relative; bottom: 0; flex-shrink: 0; background-color: #F0FAFF; text-align: center; } }
+#brief { margin: 0%; padding: 0%; }
+
+.bp-title { color: #000; }
+
+.center-element { display: block; width: 100%; top: 50%; padding-top: 15%; margin: 0%; }
+
+.excerpt { margin-top: 1%; margin-bottom: 0px; font-size: 0.9em; width: 95%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #000; }
+
+.main-content a:hover { color: #117d47; text-decoration: none; }
+
+.main-content h1 { font-size: 2.5em; font-weight: bold; margin: 0; color: #117d47; }
+
+.main-content h2 { margin: 0; color: #000; }
+
+.main-content h3 { margin: 0; }
+
+.main-content h4 { margin: 0; }
+
+.main-content h5 { margin: 0; color: #000; opacity: 0.4; }
+
+.main-content h6 { margin: 0; }
+
+.navigation-list { list-style-type: none; margin: 0; padding: 0; overflow: hidden; }
+
+.nav-items { float: right; display: block; text-align: center; width: 20%; padding: 0%; text-decoration: none; margin: auto; height: 20%; }
+
+.nav-items#personal-logo { float: left; font-weight: bold; }
+
+.nav-items a { display: block; color: #117d47; text-align: center; padding: 10%; text-decoration: none; text-decoration-style: solid; font-family: "Raleway"; height: 100%; }
+
+.nav-items:hover:not(.active) { font-weight: bold; }
+
+.nav-items a.active { font-weight: bold; color: #117d47; }
+
+.page-header { margin: auto; display: block; padding: 20px; }
+
+#post-author-date { padding: 0; margin: 0; font-size: 0.8em; opacity: 0.6; }
+
+.post-list { list-style-type: none; padding-inline-start: 0; margin-block-end: 0; padding-top: 10%; margin: 0 auto; left: 50%; }
+
+.post-item:first-child { border-top: 0; }
+
+.post-item { border-top: solid 1px #cdf0f1; padding: 2%; }
+
+#post-title { text-align: center; margin: 0; padding: 0; border-bottom: solid 1px #cdf0f1; margin-bottom: 5%; }
+
+#read-more { display: block; padding: 0; font-size: 0.8em; }
+
+@media screen and (min-width: 64em) { .site-footer { font-size: 1rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .site-footer { font-size: 1rem; } }
+@media screen and (max-width: 42em) { .site-footer { font-size: 0.9rem; } }
+.site-footer-owner { display: block; font-weight: bold; }
