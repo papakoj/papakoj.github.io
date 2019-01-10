@@ -394,7 +394,7 @@ a:hover { text-decoration: underline; }
 
 .post-item { border-top: solid 1px #cdf0f1; padding: 2%; }
 
-#post-title { text-align: center; margin: 0; padding: 0; border-bottom: solid 1px #cdf0f1; margin-bottom: 5%; }
+h1#post-title { text-align: center; margin: 0; padding: 0; border-bottom: solid 1px #cdf0f1; margin-bottom: 5%; }
 
 #read-more { display: block; padding: 0; font-size: 0.8em; }
 
