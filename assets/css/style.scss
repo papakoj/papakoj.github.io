@@ -41,6 +41,8 @@
     flex-direction: column;
     padding: 0%;
     font-family: "Raleway";
+    min-height: 85%;
+    width: 80%;
   }
   p {
     font-size: 1em;
@@ -264,6 +266,7 @@
 // #personal-logo:not(.active) {
 //   font-weight: normal;
 // }
+
 .nav-items a {
   display: block;
   color: #117d47;
@@ -302,6 +305,8 @@
   padding-top: 10%;
   margin: 0 auto;
   left: 50%;
+  max-width: 100%;
+  min-width: 100%;
 }
 .post-item:first-child {
   border-top: 0;
