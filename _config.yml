@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 repository: papakoj/papakoj.github.io
 emptyArray: []
 comments:
-  receiver: https://mygithubfunc1982.azurewebsites.net/api/PostComment
+  receiver: https://mygithubfunc492.azurewebsites.net/api/PostComment
 
 defaults:
   -
