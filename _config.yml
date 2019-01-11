@@ -1,2 +1,21 @@
 theme: jekyll-theme-cayman
 repository: papakoj/papakoj.github.io
+emptyArray: []
+comments:
+  receiver: https://mygithubfunc1982.azurewebsites.net/api/PostComment
+
+defaults:
+  -
+    scope:
+      path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: papakoj
+      commenting: open
+
+authors:
+  papakoj:
+    name: Papa Kojo Ampim-Darko
+    email: ampimdar@grinnell.edu
+    url: https://papakojoampimdarko.com
