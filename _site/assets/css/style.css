@@ -354,6 +354,8 @@ a:hover { text-decoration: underline; }
 
 .bp-title { color: #000; }
 
+.comments { padding-bottom: 10%; }
+
 .center-element { display: block; width: 100%; top: 50%; padding-top: 15%; margin: 0%; }
 
 .excerpt { margin-top: 1%; margin-bottom: 0px; font-size: 0.9em; width: 95%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #000; }
