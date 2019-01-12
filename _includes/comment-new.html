@@ -1,18 +1,18 @@
-<h3>Respond to this</h3>
+<h3 style="margin-top:3%">Leave a comment</h3>
+<p id="requiredinfo"> Your email will not be displayed. <em>*</em> denotes a required field. </p>
 <form action="/fake" method="post" id="commentform" class="form-horizontal">
   <fieldset id="commentfields">
-    <input style="display:block" name="redirect" type="hidden" value='{{ include.content }}'>
+    <textarea class="maincommenttext" name="message" id="message" rows="6"></textarea>
+    <input style="display:block" name="redirect" type="hidden" value="{{include.content}}">
     <input name="post_id" type="hidden" value="{{ slug }}">
     <input style="display:block" name="comment-site" type="hidden" value="{{ site.url }}">
-    <label for="name">Name/alias <span>(Required, displayed)</span></label>
-    <input style="display:block" type="text" name="name" id="name" placeholder="Name" />
+    <label class="commentformlabel" for="name">Name <span> *</span></label>
+    <input class="commentforminput" type="text" name="name" id="name" maxlength="100"/>
+    <label class="commentformlabel" for="email">Email <span> *</span></label>
+    <input class="commentforminput" type="text" name="email" id="email" maxlength="100"/>
 
-    <label style="display:block" for="email">Email <span>(Required, not shown)</span></label>
-    <input type="text" name="email" id="email" placeholder="myemail@somedomain.com" />
-
-    <label style="display:block" for="url">Website <span>(Optional, displayed)</span></label>
-    <input type="text" name="url" id="url" placeholder="https://mywebsite.com" />
-    <textarea style="display:block;width:100%" name="message" id="message" placeholder="Continue the discussion."></textarea>
+    <label class="commentformlabel" for="url">Website</label>
+    <input class="commentforminput" type="text" name="url" id="url" maxlength="100"/>
 
     <button onclick="setupForm()" type="button" class="btn btn-active" id="commentbutton">Leave response</button>
   </fieldset>
@@ -52,6 +52,9 @@
       var requiredIds = [ 'message', 'email', 'name']
       var missing = requiredIds.filter(id => document.getElementById(id).value.length < 3)
       if (missing.length > 0) {
+        for (var i = 0; i < missing.length; i++) {
+          document.getElementById(missing[i]).style.borderColor = "red";
+        }
         status.innerText = 'Some required fields are missing - (' + missing.join(', ') + ')'
         return
       }

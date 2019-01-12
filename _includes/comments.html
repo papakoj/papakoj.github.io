@@ -20,6 +20,11 @@
   </ol>
 </div>
 {% endif %}
-{% if page.commenting == 'open' %}
-{% include comment-new.html content="{{page.url}}" %}
-{% endif %}
+<div class="new-comment">
+  {% if page.commenting == 'open' %}
+  {% capture page_url %}
+  {{page.url}}
+  {% endcapture %}
+  {% include comment-new.html content=page_url %}
+  {% endif %}
+</div>

@@ -322,6 +322,7 @@ a:hover { text-decoration: underline; }
 @font-face { font-family: "Raleway"; src: url("../fonts/Raleway-Regular.ttf"); }
 @font-face { font-family: "Crimson"; src: url("../fonts/Crimson-Roman.otf"); }
 @media (min-width: 960px) { #brief { font-size: 3em; }
+  #commentbutton { margin: 2% auto; width: 20%; font-variant: small-caps; }
   #hello-text { font-size: 5em; margin: 0%; padding: 0%; line-height: 0.75em; }
   html, body { height: 100%; }
   .intro-text { margin: 2%; width: 56%; float: right; }
@@ -338,6 +339,7 @@ a:hover { text-decoration: underline; }
   body { font-family: Yikes; display: flex; flex-direction: column; }
   #brief { font-size: 1.5em; }
   .center-element { text-align: center; position: relative; }
+  #commentbutton { margin-top: 2%; }
   #hello-text { font-size: 2.5em; margin-top: 5%; margin-bottom: 0; }
   html, body { height: 100%; font-family: "Yikes"; }
   main#content.main-content { flex: auto; }
@@ -354,9 +356,15 @@ a:hover { text-decoration: underline; }
 
 .bp-title { color: #000; }
 
-.btn { display: inline-block; margin-bottom: 1rem; color: #117d47; background-color: rgba(255, 255, 255, 0.08); border-color: #117d47; border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+.btn { display: inline-block; margin-bottom: 1rem; color: #159957; background-color: rgba(255, 255, 255, 0.08); border-color: #159957; border-style: solid; border-width: 1px; border-radius: 0.1rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
 
-.btn:hover { color: rgba(255, 255, 255, 0.8); text-decoration: none; background-color: rgba(255, 255, 255, 0.2); border-color: #117d47; }
+.btn:hover { color: #117d47; text-decoration: none; background-color: rgba(255, 255, 255, 0.2); border-color: #117d47; }
+
+#commentfields { border: none; padding: 0; padding-top: 2%; }
+
+.commentformlabel { font-size: 0.8em; display: block; margin-top: 1%; font-variant: small-caps; }
+
+.commentforminput { border: solid 1px #cdf0f1; display: block; width: 100%; font-size: 0.85em; padding: 0.5%; font-variant: small-caps; }
 
 .comments { padding-bottom: 10%; }
 
@@ -378,6 +386,10 @@ a:hover { text-decoration: underline; }
 
 .main-content h6 { margin: 0; }
 
+.maincommenttext { border: solid 1px #cdf0f1; min-height: 40%; display: block; width: 100%; font-size: 0.85em; padding: 0.5%; }
+
+.new-comment { margin-top: 10%; border-top: solid 1px #cdf0f1; }
+
 .navigation-list { list-style-type: none; margin: 0; padding: 0; overflow: hidden; }
 
 .nav-items { float: right; display: block; text-align: center; width: 20%; padding: 0%; text-decoration: none; margin: auto; height: 20%; }
@@ -392,7 +404,7 @@ a:hover { text-decoration: underline; }
 
 .page-header { margin: auto; display: block; padding: 20px; }
 
-#post-author-date { padding: 0; margin: 0; font-size: 0.8em; opacity: 0.6; }
+#post-author-date { padding: 0; margin-bottom: 5%; font-size: 0.8em; opacity: 0.6; }
 
 .post-list { list-style-type: none; padding-inline-start: 0; margin-block-end: 0; padding-top: 10%; margin: 0 auto; left: 50%; max-width: 100%; min-width: 100%; }
 
@@ -403,6 +415,8 @@ a:hover { text-decoration: underline; }
 h1#post-title { text-align: center; margin: 0; padding: 0; border-bottom: solid 1px #cdf0f1; margin-bottom: 5%; }
 
 #read-more { display: block; padding: 0; font-size: 0.8em; }
+
+#requiredinfo { padding: 0; font-size: 0.8em; margin: 0; opacity: 0.6; }
 
 @media screen and (min-width: 64em) { .site-footer { font-size: 1rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .site-footer { font-size: 1rem; } }
