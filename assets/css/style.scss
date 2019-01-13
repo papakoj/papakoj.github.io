@@ -14,8 +14,8 @@
 }
 
 @font-face {
-  font-family: "Crimson";
-  src: url("../fonts/Crimson-Roman.otf");
+  font-family: "Lora";
+  src: url("../fonts/Lora-Regular.ttf");
 }
 
 @media (min-width: 960px) {
@@ -219,6 +219,29 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-color: #117d47;
 }
+.citation {
+  padding: 0;
+  margin-bottom: 5%;
+  font-size: 0.8em;
+  opacity: 0.6;
+  font-style: normal;
+}
+cite.citation {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+blockquote.comment-content {
+  // font-family: "Lora";
+  color: #000000;//#00689b;
+  font-size: 0.85em;
+  margin: 0;
+  border-left: solid 1px #cdf0f1;
+  padding-left: 1%;
+}
+.comment-header {
+  display:inline-block;
+  vertical-align:top;
+}
 #commentfields {
   border: none;
   padding: 0;
@@ -238,8 +261,18 @@
   padding: 0.5%;
   font-variant: small-caps;
 }
+.commentimg {
+  border-radius: 50%;
+  padding-right: 5%;
+}
+.commentlist {
+  padding: 0;
+}
 .comments {
-  padding-bottom: 10%;
+  border-top: solid 1px #cdf0f1;
+  // padding-top: 5%;
+  margin-top: 5%;
+  padding-bottom: 5%;
 }
 .center-element {
   display: block;
@@ -295,7 +328,7 @@
   padding: 0.5%;
 }
 .new-comment {
-   margin-top:10%;
+   margin-top:5%;
    border-top: solid 1px #cdf0f1;
 }
 .navigation-list {
@@ -355,11 +388,9 @@
   display: block;
   padding: 20px;
 }
-#post-author-date {
-  padding: 0;
-  margin-bottom: 5%;
-  font-size: 0.8em;
-  opacity: 0.6;
+.postedcomment {
+  padding-bottom: 1%;
+  padding-inline-start: 0;
 }
 .post-list {
   list-style-type: none;

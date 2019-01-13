@@ -3,7 +3,7 @@
 <form action="/fake" method="post" id="commentform" class="form-horizontal">
   <fieldset id="commentfields">
     <textarea class="maincommenttext" name="message" id="message" rows="6"></textarea>
-    <input style="display:block" name="redirect" type="hidden" value="{{include.content}}">
+    <input style="display:block" name="redirect" type="hidden" value="{{ site.url }}">
     <input name="post_id" type="hidden" value="{{ slug }}">
     <input style="display:block" name="comment-site" type="hidden" value="{{ site.url }}">
     <label class="commentformlabel" for="name">Name <span> *</span></label>
