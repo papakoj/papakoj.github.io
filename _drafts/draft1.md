@@ -1,8 +1,17 @@
 ---
 layout: post
-title:  "Draft 1"
+title:  "Me"
 author: "Papa Kojo Ampim-Darko"
 ---
-**Hello world**, this is my first Jekyll blog draft.
 
-I hope you like it!
+I'd like to preface this by saying I dislike biographies because they force me to distill myself into a (often prioritized) list of attributes which can appear mundane when reviewed later.  
+
+My name is Papa Kojo Ampim-Darko. I was born on April 7 1997 to Ms. Josephine Cudjoe and Mr. Kwaku Ampim-Darko in Osu, Accra, Ghana. I grew up with 4 siblings (I have 4 others on my father's side) Naa, Ewurama, Kojo, and Afia.  My mother was a teacher (now teacher/administrator) and my father (now retired) worked for the Ghana Football Association (currently dissolved :( ). Most of the time at home, though, it was just me, my mother, and one of my sisters. Due to our relative ages, the others were either away at boarding school, at work, or living elsewhere. We also lived with my grandmother until she died in 2007, and at different times, my uncle Joe and cousins Maame and Kofi.
+
+![My mum and I](https://lh3.googleusercontent.com/opW3kwACwjRl1vbkPrAOo-UQqJTkrl_71z9dRULG53K1F7G_fA4jzanwAl3Jp8qXWjedZFeP09tz8yTz7IyFKe7VBVfHwcmSVhUpzCA_2K-fHFDOCBpsgvHtEpCsgtGyfVQu3O9RbA=w2400)
+<!-- <a href='https://photos.google.com/share/AF1QipPZeTJONe99OjIv8kfsMzD1a5O6XR6KjwmwwQWPsg0yClGjaewG7kLADbZXoULeeQ?key=UXM3RjZMVGRlY0w2cGYtOWR2LUd1X2pybFpYS1dB&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/opW3kwACwjRl1vbkPrAOo-UQqJTkrl_71z9dRULG53K1F7G_fA4jzanwAl3Jp8qXWjedZFeP09tz8yTz7IyFKe7VBVfHwcmSVhUpzCA_2K-fHFDOCBpsgvHtEpCsgtGyfVQu3O9RbA=w2400' /></a> -->
+
+
+Growing up, I was described as smart, shy, timid, small and quiet. The small thing was true. I was a very picky eater, even when I got what I wanted I would only eat a small portion of it most times and my mother often tells me how worried she would get about my eating habits. I was smart, or at the very least I was a good reader. My mother read to me constantly as a child, and as soon as I was able my favourite thing was to find a good book and immerse myself in it. I would carry a book with me at all times, and in any suitable break from my ongoing activity, resume my story. This made me a good student. At Merton International School, which is also where my mother worked, I was promoted from Class 1 to Class 2 midway through the first term and continued to perform well. Every year at the Speech and Prizegiving Ceremony I would have my name called for being the best student in multiple subjects.. the prizes I claimed? more books.
+
+I don't exactly remember why, but around age 8 I developed a fascination with computers. My school had a computer lab and increasingly I'd find myself in there messing with these machines. It's pretty interesting now to think about how much time I spent there, considering the only applications available to me were Mavis Beacon and the built-in Microsoft games. Nevertheless, I spent several hours on these, and then explored all menus, settings, tutorials or other readable material I could find on these computers. When I was home, I'd go back to my books, since we didn't own a computer. This went on until I was ~12 when my mother bought her (my) first computer. It was a Toshiba Satellite L655D and I loved it. I read every bit of documentation it came with (my mother wouldn't let me touch it before then) and after that I spent all my time on there. Granted, we didn't have an internet connection so my options were a bit constrained, but I didn't care.. most days I interacted more with this machine than I did with people. Beginning high school, I began to diversify my interests, becoming obsessed with football, running, videogames, and 
