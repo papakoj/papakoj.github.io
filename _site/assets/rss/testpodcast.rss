@@ -6,8 +6,11 @@
 	version="2.0">
 	<channel>
 		<title>
-			Hyun Hwan An's Podcast
+			Untitled
 		</title>
+		<author>
+			Phillip An
+		</author>
 		<link>
 			http://www.anhyunhwan.com/
 		</link>
@@ -23,6 +26,10 @@
 			kp
 			gh
 		</spotify:countryOfOrigin>
+		<itunes:author>Phillip An</itunes:author>
+		<itunes:category text="Documentary" />
+		<itunes:type>episodic</itunes:type>
+		<itunes:image href="https://papakojoampimdarko.com/assets/images/test_podcast_image.jpeg"/>
 		<item>
 			<guid isPermaLink="false">
 				46f48b77-1cfc-47a9-a15a-a0d96856c0f0 <!-- can switch this to link of file -->
