@@ -1,0 +1,44 @@
+<rss xmlns:media="https://search.yahoo.com/mrss/"
+	xmlns:itunes="https://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:dcterms="https://purl.org/dc/terms/"
+	xmlns:spotify="https://www.spotify.com/ns/rss"
+	xmlns:psc="https://podlove.org/simple-chapters/"
+	version="2.0">
+	<channel>
+		<title>
+			Hyun Hwan An's Podcast
+		</title>
+		<link>
+			http://www.anhyunhwan.com/
+		</link>
+		<description>
+			Phillip talks about random things with random people.
+		</description>
+		<language>
+			en
+		</language>
+		<spotify:limit recentCount="3" />
+		<spotify:countryOfOrigin>
+			us
+			kp
+			gh
+		</spotify:countryOfOrigin>
+		<item>
+			<guid isPermaLink="false">
+				46f48b77-1cfc-47a9-a15a-a0d96856c0f0 <!-- can switch this to link of file -->
+			</guid>
+			<enclosure url="https://papakojoampimdarko.com/assets/audio/episode_0.mp3" type="audio/mpeg" length="58141034"/> <!--link to file-->
+			<!-- length is size in bytes -->
+			<pubDate>
+				Fri, 1 Jan 2021 10:30:00 +0000
+				<!-- OR Fri, 1 Jan 2021 10:30:00 GMT -->
+			</pubDate>
+			<title>
+				Episode #0: Il Chiaretto
+			</title>
+			<description>
+				This is a test episode to see whether this is actually a good idea.
+			</description>
+		</item>
+	</channel>
+</rss>
